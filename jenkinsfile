@@ -16,7 +16,7 @@ pipeline {
         stage('checkout') {
             steps {
                 script {
-                    git branch: 'main', credentialsId: 'your-credential-id', url: 'https://github.com/AzimAkmatov/Terraform-jenkins.git'
+                    git branch: 'main', credentialsId: 'your-credential-id', url: 'https://github.com/aidaalim/terraform-project.git'
                 }
             }
         }
